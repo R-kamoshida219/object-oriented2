@@ -7,7 +7,7 @@ public static void main(String[] args) {
     Taxi Taxi = new Taxi();
     Taxi.setSpeed(10);
     Taxi.price = 1000;
-    Taxi.StepOnAccle(); //料金を1000円支払う
+    Taxi.StepOnAccele(); //料金を1000円支払う
     Taxi.payment();     //支払う
 
 }

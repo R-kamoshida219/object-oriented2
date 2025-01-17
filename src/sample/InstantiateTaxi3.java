@@ -5,11 +5,11 @@ public static void main(String[] args) {
     
     System.out.println("車を走らせます");
    Car car = new Car();
-   car.StepOnAccle();
+   car.StepOnAccele();
 
    System.out.println("タクシーを走らせます");
    Taxi Taxi = new Taxi();
-   Taxi.StepOnAccle();
+   Taxi.StepOnAccele();
 }
 }
 

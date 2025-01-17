@@ -8,8 +8,8 @@ public static void main(String[] args) {
     taxi.setName( "タクシー仕様のプリウス");
 
 
-taxi.StepOnAccle();
-taxi.StepOnAccle();
+taxi.StepOnAccele();
+taxi.StepOnAccele();
 taxi.StepOnBrake();
 
 System.out.println("現在の速度は" + taxi.getSpeed() + "km/hです");

@@ -5,7 +5,7 @@ public static void main(String[] args) {
     Bus Bus = new Bus();
     Bus.setSpeed(10);
 
-    Bus.StepOnAccle();
+    Bus.StepOnAccele();
     Bus.StepOnBrake();
     Bus.StepOnBrake();
 

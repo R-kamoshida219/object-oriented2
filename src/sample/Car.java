@@ -1,7 +1,7 @@
 package sample;
 
 public class Car {
-private int speed;   //速度を表す属性
+protected int speed;   //速度を表す属性
 private String name; //車名を表す属性
 private boolean flg;
 
@@ -43,7 +43,7 @@ public Car(int speed,String name){
 }
 
 //アクセルを踏む操作
-public void StepOnAccle(){
+public void StepOnAccele(){
     speed = speed + 10;
     System.out.println("スピードが" + speed + "km/hに増えました");
 }
